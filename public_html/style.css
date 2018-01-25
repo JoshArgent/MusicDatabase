@@ -1,0 +1,147 @@
+body
+{
+	background-color: #d9d9d9;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Verdana", "Arial";
+}
+
+h1
+{
+	font-family: "Verdana", "Arial";
+	font-size: 40px;
+	font-weight: normal;
+	font-variant: small-caps;
+	color: white;
+	text-shadow: 2px 2px grey;
+}
+
+h2
+{
+	font-size: 28px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+table
+{
+	border: 1px solid #428a42;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+
+th, td
+{
+    text-align: left;
+    padding: 6px;
+	margin: 5px;
+	min-width: 100px;
+	
+}
+
+th
+{
+	background-color: #428a42;
+	color: white;
+}
+
+tr:nth-of-type(4n-3)
+{
+	background-color: #f2f2f2;
+}
+
+tr.editRow
+{
+	background-color: #FFEBCD;
+	border: 1px solid blue;
+}
+
+a:link
+{
+    color: #428a42;
+}
+
+a:visited
+{
+    color: #428a42;
+}
+
+a:hover
+{
+    color: #87c587;
+}
+
+a:active
+{
+    color: #428a42;
+}
+
+form
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	display: inline;
+}
+
+#main
+{
+	background-color: white;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	max-width: 980px;
+}
+
+.header
+{
+	padding: 15px;
+	background-color: #87c587;
+}
+
+.navigation
+{
+	background-color: #428a42;
+	margin-top: -20px;
+}
+
+ul.nav
+{
+	background-color: #428a42;
+	list-style-type: none;
+    overflow: hidden;
+}
+
+li.nav
+{
+	float: left;
+}
+
+li.nav a
+{
+	padding: 10px;
+	display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.nav a:hover
+{
+    background-color: #326732;
+}
+
+li.nav_search
+{
+	float: right;
+	padding: 10px;
+	margin-top: -5px;
+}
+
+.content
+{
+	padding: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+	background-color: white;
+}
